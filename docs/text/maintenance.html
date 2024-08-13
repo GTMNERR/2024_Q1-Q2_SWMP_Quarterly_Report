@@ -206,6 +206,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#depth-dropout" id="toc-depth-dropout" class="nav-link" data-scroll-target="#depth-dropout"><span class="toc-section-number">8.3</span>  Depth dropout</a></li>
   <li><a href="#data-file-broken-up" id="toc-data-file-broken-up" class="nav-link" data-scroll-target="#data-file-broken-up"><span class="toc-section-number">8.4</span>  Data file broken up</a></li>
   <li><a href="#faulty-batteries" id="toc-faulty-batteries" class="nav-link" data-scroll-target="#faulty-batteries"><span class="toc-section-number">8.5</span>  Faulty batteries</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software"><span class="toc-section-number">8.6</span>  Software</a></li>
+  <li><a href="#chlorophyll-sensors" id="toc-chlorophyll-sensors" class="nav-link" data-scroll-target="#chlorophyll-sensors"><span class="toc-section-number">8.7</span>  Chlorophyll sensors</a></li>
+  <li><a href="#leveling" id="toc-leveling" class="nav-link" data-scroll-target="#leveling"><span class="toc-section-number">8.8</span>  Leveling</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/GTMNERR/swmp-quarter-report/edit/main/text/maintenance.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/GTMNERR/swmp-quarter-report/blob/main/text/maintenance.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/GTMNERR/swmp-quarter-report/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -245,10 +248,15 @@ ul.task-list li input[type="checkbox"] {
 <li>December 12 – January 10, 2024 (Megalops SN: 16J102351) central wiper SN: 22A106852</li>
 <li>February 8 – March 7, 2024 (Megalops SN: 16J102351) central wiper SN: 22A106852</li>
 </ul>
+<p>Fort Matanzas:</p>
+<ul>
+<li>May 25 – June 4, 2024 (Nautilus SN: 13H102686) central wiper SN:20H100789</li>
+</ul>
 </section>
 <section id="depth-dropout" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="depth-dropout"><span class="header-section-number">8.3</span> Depth dropout</h2>
 <p>The depth sensor dropped from deployment of sonde Egret (SN: 15E101700) from December 12, 2023 – January 10, 2024 at Pellicer Creek. This resulted in a broken deployment file at December 17, 2023 04:30 in which the depth sensor was completely missing from the second half of this split file. During post-calibrations, the battery compartment was reset (removed battery cap and replaced it) and the depth sensor was reconnected to the data sonde. Post-calibration values were able to be collected and a calibration test of the sensor showed that it was able to be stabilized. Therefore, this sensor and sonde will be redeployed.</p>
+<p>Wiped specific conductivity sensor failed at FM on April 30th and caused continual depth dropouts until retrieved on May 09, 2024. Additionally, a wiped specific conductivity sensor malfunctioned around May 25th and caused the depth sensor to fail post deployment checks on June 04, 2024. The central wiper brush fell also fell off during the deployment.</p>
 </section>
 <section id="data-file-broken-up" class="level2" data-number="8.4">
 <h2 data-number="8.4" class="anchored" data-anchor-id="data-file-broken-up"><span class="header-section-number">8.4</span> Data file broken up</h2>
@@ -258,12 +266,25 @@ ul.task-list li input[type="checkbox"] {
 <li>PC (Egret SN: 15E101700) 12/12/2023, 11:15 – 01/10/2024, 12:00</li>
 <li>SS (Flounder SN: 12L101354) 01/10/2024 12:15 – 02/08/2024 10:15</li>
 <li>FM (Marlin SN: 13E101372) 03/07/2024 09:30 – 04/09/2024 10:15</li>
+<li>SS (Dorian SN: 20H100466) 05/19/2024 19:30 – 05/19/2024 10:00</li>
 </ul>
 </section>
 <section id="faulty-batteries" class="level2" data-number="8.5">
 <h2 data-number="8.5" class="anchored" data-anchor-id="faulty-batteries"><span class="header-section-number">8.5</span> Faulty batteries</h2>
 <p>Pellicer Creek telemetry and Egret (SN: 15E101700) data sonde experience battery issues during the first quarter of 2024. The PC telemetry station was reporting low battery voltage in February and March. On April 2, 2024 research staff successfully replaced the battery at the telemetry station. Staff confirmed that the power supply elevated after the exchange.</p>
 <p>In January 2024 the battery voltage on Pellicer Creek sonde, Egret, increased during the deployment which is uncommon. This same battery issue repeated itself each time this sonde was deployed in February and March. In early April when the sonde was getting calibrated the KOR software notified the technician that the datasonde’s internal RTC battery aka coin cell had low voltage. Staff called Xylem/YSI tech support and was told to send the data sonde in for repairs.</p>
+</section>
+<section id="software" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="software"><span class="header-section-number">8.6</span> Software</h2>
+<p>In April, both SS and FM datasondes were freezing the KOR software each time a central wiper sensor was connected to the sondes. After speaking with YSI tech support it was recommended to update KOR software to version 1.4.0. This software update resulted in changes to data file structure and thus compatibility issues when uploading raw data to the CDMO website. The CDMO is currently working on a fix but until then data files are sent to Amber at the CDMO for modification and data upload.</p>
+</section>
+<section id="chlorophyll-sensors" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="chlorophyll-sensors"><span class="header-section-number">8.7</span> Chlorophyll sensors</h2>
+<p>Several chlorophyll sensors in Q2 deployed at all four stations calibrated with a Yellow QC score. The yellow QC score means that the sensor gain or offset is near the threshold of calibration limits and may experience sensor drift. After performing a factory reset calibration and making new standard it was determined that the sensors need replacing.</p>
+</section>
+<section id="leveling" class="level2" data-number="8.8">
+<h2 data-number="8.8" class="anchored" data-anchor-id="leveling"><span class="header-section-number">8.8</span> Leveling</h2>
+<p>The GTM research staff completed the annual task of measuring the elevation of the datasonde in Pellicer Creek on April 15 - 16, 2024. The team measured the change in height from a reference benchmark and three positions on the piling holding the sonde. The orthometric height of the sonde tube pin position is used as the station offset when calibrating the depth sensor for the datasonde. The orthometric heights of the positions can also be used to determine if the piling holding the sonde is moving vertically.</p>
 
 
 </section>
