@@ -33,11 +33,9 @@ Rainfall totals for the first quarter of 2024 exceeded the quarterly totals from
 
 Winter storm Finn (unofficially named) brought rainfall and strong winds in [January](https://www.actionnewsjax.com/news/local/strong-storm-cold-front-will-move-across-northeast-florida-southeast-georgia/DNJ3SOGJ35G4FCKJLPJNP67YZY/) to Northeast Florida causing some local schools to release students early and cancel after school activities (@fig-rainfall-1; @fig-rainfall-2). This event is discussed in further detail in the next chapter.
 
-The start to Q2 was very dry with little to no rain. Some relief from the drought conditions finally came on May 13-15 when the area received heavy rains and strong winds. But those affects were short-lived. 
+The start to Q2 was very dry with little to no rain. Some relief from the drought conditions finally came on May 13-15 when the area received heavy rains and strong winds. But those affects were short-lived. As the drought conditions continued into June the light intensity was high especially mid-day (@fig-lightintensity). 
 
-Light intensity was high in June. The greatest light intensity in June occurred mid-day and exceeded January’s intensity by over 20,000 mMol/m^2 @fig-lightintensity. 
-
-As the drought conditions continued into June there were record breaking high temperatures June 7-10. Temperatures reached upwards of 100 degrees with a heat index of 110 degrees and still no rain. Daily average air temperatures were variable during the first part of the year but surprisingly fell within the historical range for the GTMNERR station through June  (@fig-range-atemp). January and March experienced a few temperature drops outside of the average range  (@fig-range-atemp). 
+There were record breaking high temperatures June 7-10. Temperatures reached upwards of 100 degrees with a heat index of 110 degrees and still no rain. Daily average air temperatures were variable during the first part of the year but surprisingly fell within the historical range for the GTMNERR station through June  (@fig-range-atemp). January and March experienced a few temperature drops outside of the average range  (@fig-range-atemp). 
 
 Daily averages in water temperature generally fell within historical ranges at the stations within the first two quarters, however, all stations experienced lower temperature in January and higher highs in Q2 (@fig-range-temp). The changes in daily averages were observed at all four stations, though more pronounced at San Sebastian and Fort Matanzas, the stations closed to inlets (@fig-range-temp-2; @fig-range-temp-3).
 
