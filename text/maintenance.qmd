@@ -29,9 +29,15 @@ San Sebastian:
 -   December 12 -- January 10, 2024 (Megalops SN: 16J102351) central wiper SN: 22A106852
 -   February 8 -- March 7, 2024 (Megalops SN: 16J102351) central wiper SN: 22A106852
 
+Fort Matanzas:
+
+-   May 25 -- June 4, 2024 (Nautilus SN: 13H102686) central wiper SN:20H100789
+
 ## Depth dropout
 
 The depth sensor dropped from deployment of sonde Egret (SN: 15E101700) from December 12, 2023 -- January 10, 2024 at Pellicer Creek. This resulted in a broken deployment file at December 17, 2023 04:30 in which the depth sensor was completely missing from the second half of this split file. During post-calibrations, the battery compartment was reset (removed battery cap and replaced it) and the depth sensor was reconnected to the data sonde. Post-calibration values were able to be collected and a calibration test of the sensor showed that it was able to be stabilized. Therefore, this sensor and sonde will be redeployed.
+
+Wiped specific conductivity sensor failed at FM on April 30th and caused continual depth dropouts until retrieved on May 09, 2024. Additionally, a wiped specific conductivity sensor malfunctioned around May 25th and caused the depth sensor to fail post deployment checks on June 04, 2024. The central wiper brush fell also fell off during the deployment.
 
 ## Data file broken up
 
@@ -42,9 +48,22 @@ The following is a list of deployments that experienced broken data files and al
 -   PC (Egret SN: 15E101700) 12/12/2023, 11:15 -- 01/10/2024, 12:00
 -   SS (Flounder SN: 12L101354) 01/10/2024 12:15 -- 02/08/2024 10:15 
 -   FM (Marlin SN: 13E101372) 03/07/2024 09:30 -- 04/09/2024 10:15
+-   SS (Dorian SN: 20H100466) 05/19/2024 19:30 -- 05/19/2024 10:00
 
 ## Faulty batteries
 
 Pellicer Creek telemetry and Egret (SN: 15E101700) data sonde experience battery issues during the first quarter of 2024. The PC telemetry station was reporting low battery voltage in February and March. On April 2, 2024 research staff successfully replaced the battery at the telemetry station. Staff confirmed that the power supply elevated after the exchange.
 
-In January 2024 the battery voltage on Pellicer Creek sonde, Egret, increased during the deployment which is uncommon. This same battery issue repeated itself each time this sonde was deployed in February and March. In early April when the sonde was getting calibrated the KOR software notified the technician that the datasonde's internal RTC battery aka coin cell had low voltage. Staff called Xylem/YSI tech support and was told to send the data sonde in for repairs.  
+In January 2024 the battery voltage on Pellicer Creek sonde, Egret, increased during the deployment which is uncommon. This same battery issue repeated itself each time this sonde was deployed in February and March. In early April when the sonde was getting calibrated the KOR software notified the technician that the datasonde's internal RTC battery aka coin cell had low voltage. Staff called Xylem/YSI tech support and was told to send the data sonde in for repairs.
+
+## Software
+
+In April, both SS and FM datasondes were freezing the KOR software each time a central wiper sensor was connected to the sondes. After speaking with YSI tech support it was recommended to update KOR software to version 1.4.0. This software update resulted in changes to data file structure and thus compatibility issues when uploading raw data to the CDMO website. The CDMO is currently working on a fix but until then data files are sent to Amber at the CDMO for modification and data upload.
+
+## Chlorophyll sensors
+
+Several chlorophyll sensors in Q2 deployed at all four stations calibrated with a Yellow QC score. The yellow QC score means that the sensor gain or offset is near the threshold of calibration limits and may experience sensor drift. After performing a factory reset calibration and making new standard it was determined that the sensors need replacing. 
+
+## Leveling
+
+The GTM research staff completed the annual task of measuring the elevation of the datasonde in Pellicer Creek on April 15 - 16, 2024. The team measured the change in height from a reference benchmark and three positions on the piling holding the sonde. The orthometric height of the sonde tube pin position is used as the station offset when calibrating the depth sensor for the datasonde. The orthometric heights of the positions can also be used to determine if the piling holding the sonde is moving vertically.   
