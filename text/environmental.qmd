@@ -36,7 +36,7 @@ The start of Q2 was very dry with little to no rain. Some relief from the drough
 
 There were record breaking high temperatures June 7-10. Temperatures reached upwards of 100 degrees with a heat index of 110 degrees and still no rain. Daily average air temperatures were variable during the first part of the year but surprisingly fell within the historical range for the GTMNERR station through June  (@fig-range-atemp). January and March experienced a few temperature drops outside of the average range  (@fig-range-atemp). 
 
-Daily averages in water temperature generally fell within historical ranges at the stations within the first two quarters, however, all stations experienced lower temperature in January and higher highs in Q2 (@fig-range-temp). The changes in daily averages were observed at all four stations, though more pronounced at San Sebastian and Fort Matanzas, the stations closed to inlets (@fig-range-temp-2; @fig-range-temp-3).
+Daily averages in water temperature generally fell within historical ranges at the stations within the first two quarters, however, all stations experienced lower temperature in January and higher highs in Q2 (@fig-range-temp). The changes in daily averages were observed at all four stations, though more pronounced at San Sebastian and Fort Matanzas, the stations close to inlets (@fig-range-temp-2; @fig-range-temp-3).
 
 Rainfall in January brought salinities lower than their average daily ranges (@fig-range-sal), particularly at the stations farthest from the inlets (@fig-range-sal-1; @fig-range-sal-4). However, the drought conditions in spring made salinity levels rise. Salinities stayed above the average daily range at all stations in June but was most pronounced at Pine Island (@fig-range-sal-1).
 
