@@ -394,11 +394,11 @@ Predicted king tide events so far in 2024 were:
 -   January 11th-13th
 
 
-The effect of the King Tides on daily average water depths at all the stations is observable in the steady climb of the water beginning in mid-September (@fig-range-depth); however, the individual "events" are not quite as clear outside of the Pellicer Creek station (@fig-range-depth-4) where clear increases in water levels are closely aligned with these periods. Unfortunately, September King Tide, which was coupled with a Nor'easter, was not captured at this station due to equipment maintenance issues.
+The effects of the King Tides on daily average water depths were not observable in January, but there was a spike in water depths at all stations in February (@fig-range-depth).
 
 ### Water Depth
 
-Note that the water level data at Pellicer Creek only includes data from 2021-2024, which is due to this station switching from reporting depth to reporting level (NAVD88) in 2021 (@fig-range-depth-4).
+Note that the water level data at Pellicer Creek only includes data from 2021--2024, which is due to this station switching from reporting depth to reporting level (NAVD88) in 2021 (@fig-range-depth-4).
 
 ```{r}
 #| label: fig-range-depth
@@ -424,10 +424,9 @@ historical_daily_range(pc, param = 'clevel', target_yr = 2024)
 
 Extreme temperatures, both high and low, have drastic impacts on environmental function. For black mangroves (*Avicennia germinans*), temperatures under -4°C have been found to reduce mangrove cover [@cavanaugh2013]. Extreme high temperatures are often health risks as they result in many [heat-related illnesses](https://www.weather.gov/safety/heat-illness).
 
-Overall, examining monthly temperature anomalies the January, March, May and June  were higher than "normal" (@fig-temp-anomalies), with June having the highest anomalies recorded in that month. February and April of this year were "cooler" than normal. June also had the highest average air temperature ever recorded at the GTMNERR weather station (@fig-dewpt).
+Overall, mean monthly temperatures in January, March, May and June were higher than average (@fig-temp-anomalies), with June having the highest anomalies recorded in that month. February and April of this year were cooler than average. June also had the highest average air temperature ever recorded at the GTMNERR weather station (@fig-dewpt).
 
-
-No freezing events were recorded in this recording year.
+No freeze events were recorded this year.
 
 ```{r}
 #| label: fig-temp-anomalies
