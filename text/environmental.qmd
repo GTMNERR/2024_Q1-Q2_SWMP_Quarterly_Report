@@ -29,7 +29,7 @@ The following includes variables that establish the estuarine setting: rainfall,
 
 ## Summary
 
-Rainfall totals for the second quarter of 2024 exceeded the totals for the first quarter (@fig-rainfall). June had the greatest monthly total rainfall for 2024 so far (@fig-rainfall-2), abut both January and February had the greatest number of rain days exceeding 10 mm/day (@fig-rainfall-3). 
+Rainfall totals for the second quarter of 2024 exceeded the totals for the first quarter (@fig-rainfall). June had the greatest monthly total rainfall for 2024 so far (@fig-rainfall-2), but both January and February had the greatest number of rain days exceeding 10 mm/day (@fig-rainfall-3). 
 <!-- Winter storm Finn (unofficially named) brought rainfall and strong winds in [January](https://www.actionnewsjax.com/news/local/strong-storm-cold-front-will-move-across-northeast-florida-southeast-georgia/DNJ3SOGJ35G4FCKJLPJNP67YZY/) to Northeast Florida causing some local schools to release students early and cancel after school activities (@fig-rainfall-1; @fig-rainfall-2). This event is discussed in further detail in the next chapter. -->
 
 The start of Quarter 2 was dry with little to no rain, except for the one day in April with over 30 mm of rain and May 13-15 when the area received heavy rains and strong winds. As the drought conditions continued into June, the light intensity was high, especially mid-day (@fig-lightintensity). 
@@ -221,7 +221,8 @@ Air and water temperatures are presented as daily averages (blue line) with hist
 #| echo: false
 #| fig.cap: "Historical daily range of air temperature at the SWMP weather station with current year daily average overlaid in blue."
 
-  historical_daily_range(MET, param = 'atemp', target_yr = 2024)
+  historical_daily_range(MET, param = 'atemp', target_yr = 2024) + labs(x = "", y = "Air Temperature (\u00B0C)")
+  
 ```
 
 ```{r}
@@ -235,13 +236,13 @@ Air and water temperatures are presented as daily averages (blue line) with hist
 #|    - "Pellicer Creek"
 #| layout-ncol: 2
 
-historical_daily_range(pi, param = 'temp', target_yr = 2024)
+historical_daily_range(pi, param = 'temp', target_yr = 2024) + labs(x = "", y = "Water Temperature (\u00B0C)")
 
-historical_daily_range(ss, param = 'temp', target_yr = 2024)
+historical_daily_range(ss, param = 'temp', target_yr = 2024) + labs(x = "", y = "Water Temperature (\u00B0C)")
 
-historical_daily_range(fm, param = 'temp', target_yr = 2024)
+historical_daily_range(fm, param = 'temp', target_yr = 2024) + labs(x = "", y = "Water Temperature (\u00B0C)")
 
-historical_daily_range(pc, param = 'temp', target_yr = 2024)
+historical_daily_range(pc, param = 'temp', target_yr = 2024) + labs(x = "", y = "Water Temperature (\u00B0C)")
 ```
 
 ### Salinity
